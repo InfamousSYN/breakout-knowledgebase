@@ -1,4 +1,6 @@
 site_name: Breakout CheatSheet
+repo_url: https://github.com/InfamousSYN/breakout-knowledgebase
+repo_name: InfamousSYN/breakout-knowledgebase
 theme:
   name: material
   palette:
