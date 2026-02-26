@@ -1,0 +1,25 @@
+site_name: Breakout CheatSheet
+theme:
+  name: material
+  palette:
+    scheme: slate # Dark mode is better for pentesting docs
+    primary: red
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+' # Helps search find "CTRL+O" even if typed "CTRL-O"
+
+markdown_extensions:
+  - toc:
+      permalink: true # Adds clickable anchors to every header
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
