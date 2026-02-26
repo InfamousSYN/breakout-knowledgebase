@@ -28,3 +28,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details # Allows for collapsible "spoiler" blocks
   - pymdownx.superfences # Required for nesting content
+
+extra_css:
+  - stylesheets/link-preview.css
+
+extra_javascript:
+  - javascripts/link-preview.js
